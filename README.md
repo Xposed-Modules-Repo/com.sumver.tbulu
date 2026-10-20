@@ -3,6 +3,8 @@
 这是一个Xposed模块，你需要一个框架来启动它，比如LSPosed，安装模块后默认会选中两步路APP，手动在LSPosed里启动模块即可。
 以下功能默认大部分都默认开启，可按需关闭，设置入口见文末图。
 
+本项目提供完整apk（包含模块的安装包，无需xposed环境即可使用）
+
 > 因为我丢失了此前的开发密钥无法编译出升级包，因此已安装该模块的用户，可能需要卸载模块，再安装才能成功
 
 ## 去广告
@@ -47,3 +49,8 @@
 ![修改对比](https://github.com/sumver/hooktbulu/blob/main/app/2026-10-13%2022%2035%2022.png)
 
 <p></p>
+
+## 完整包（170m+）设置入口
+release里的完整安装包是包含了模块的app，适合没有root、xposed环境的安卓机。模块设置入口如下图
+
+<img width="905" height="907" alt="image" src="https://github.com/user-attachments/assets/8c48d2d0-087e-411a-abf8-06646dba1bb1" />
