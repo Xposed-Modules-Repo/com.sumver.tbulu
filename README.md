@@ -51,6 +51,8 @@
 <p></p>
 
 ## 完整包（170m+）设置入口
-release里的完整安装包是包含了模块的app，适合没有root、xposed环境的安卓机。模块设置入口如下图
+release里的完整安装包是包含了模块的app（名字带-moded），适合没有root、xposed环境的安卓机。模块设置入口如下图
+
+注意，每个版本不总是会发布完整包，有需要的可以自行使用NPatch等工具进行打包、分发。
 
 <img width="905" height="907" alt="image" src="https://github.com/user-attachments/assets/8c48d2d0-087e-411a-abf8-06646dba1bb1" />
